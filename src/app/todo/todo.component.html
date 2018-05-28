@@ -1,0 +1,27 @@
+<div class="jumbotron text-center">
+  <h2>
+    To Do List App
+  </h2>
+  <p>Angular 5 + FireBase + Boostrap 3 = ToDos App</p>
+</div>
+
+<div class="input-group">
+  <input type="text" class="form-control" #itemTitle>
+  <span class="input-group-addon hover-cursor" (click)="onAdd(itemTitle)">
+    <i class="fa fa-plus-circle fa-2x"></i>
+  </span>
+</div>
+
+<div style="margin:5px 0px">
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let item of toDoListArray">
+      <span class="hover-cursor" [class.text-success]="item.isChecked" (click)="alterCheck(item.$key,item.isChecked)">
+        <i class="fas fa-lg" [ngClass]="item.isChecked?'fa-check-circle':'fa-circle'"></i>
+      </span>
+      {{item.title}}
+      <span class="hover-cursor text-danger pull-right" (click)="onDelete(item.$key)">
+        <i class="fas fa-trash-alt fa-lg"></i>
+      </span>
+    </li>
+  </ul>
+</div>

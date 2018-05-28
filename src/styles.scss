@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-size: 17px;
+    background: black;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+p {
+    text-decoration: underline;
+}
+.hover-cursor {
+    cursor: pointer;
+}
+.jumbotron,
+.list-group-item,
+.input-group-addon {
+    background: rgb(247, 202, 24);
+}
+.list-group-item,
+.list-group-item:focus,
+.list-group-item:active {
+    font-weight: bold;
+    border: 1px solid green;
+}
+
+.fa-trash-alt,
+.fa-check-circle,
+.fa-plus-circle {
+    color: black;
+}
+input.form-control,
+.input-group-addon {
+    height: 42px;
+    border: 1px solid green;
+}

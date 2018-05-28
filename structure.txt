@@ -1,0 +1,15 @@
+* src
++---* app
+|   +--* todo
+|   |  |--todo.component.ts|.html|.sass
+|   |  |
+|   |  +--* shared
+|   |     |--todo.service.ts
+|   |
+|   |
+|   |--app.module.ts  (configure firebase connection)
+|
++---* enviroments
+|   |--enviroments.ts (saved firebase connection details)
+|
+|--index.html (cdn path for bootstarp and font awesome icon)
