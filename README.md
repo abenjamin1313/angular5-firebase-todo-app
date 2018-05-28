@@ -5,11 +5,12 @@ This project uses Bootstrap 3 [Bootstrap 3](https://getbootstrap.com/docs/3.3/ge
 This project uses google [FireBase](https://firebase.google.com/) for mobile and web applications development platform.  
   
 ## ToDo page  
-![alt text]()
+![alt text]https://github.com/abenjamin1313/angular5-firebase-todo-app/blob/master/pics/todo.png()
 ## ToDo-List page  
-![alt text]()
+![alt text](https://github.com/abenjamin1313/angular5-firebase-todo-app/blob/master/pics/todo-list.png)
 ## Firebase  
-![alt text]()
+![alt text](https://github.com/abenjamin1313/angular5-firebase-todo-app/blob/master/pics/firebase.png)  
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
