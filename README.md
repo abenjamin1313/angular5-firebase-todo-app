@@ -1,7 +1,15 @@
-# Ang5ToDos
+## Angular 5 + FireBase + Boostrap 3 = ToDos App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
-
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.  
+This project uses Bootstrap 3 [Bootstrap 3](https://getbootstrap.com/docs/3.3/getting-started/) version 3.3.7  
+This project uses google [FireBase](https://firebase.google.com/) for mobile and web applications development platform.  
+  
+## ToDo page  
+![alt text]()
+## ToDo-List page  
+![alt text]()
+## Firebase  
+![alt text]()
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
